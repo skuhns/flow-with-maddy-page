@@ -7,7 +7,7 @@ import insta3 from "@/assets/insta-3.jpg";
 
 const posts = [
   { src: insta1, alt: "Blue-lit studio session", url: "https://www.instagram.com/p/DVwDoJajWcy/" },
-  { src: insta2, alt: "Reformer long stretch", url: "https://instagram.com/maddyxpilates" },
+  { src: insta2, alt: "Reformer long stretch", url: "https://www.instagram.com/p/DKnA2u5sIqa/" },
   { src: insta3, alt: "Studio mirror selfie", url: "https://instagram.com/maddyxpilates" },
 ];
 
