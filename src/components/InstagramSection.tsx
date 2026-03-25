@@ -33,7 +33,7 @@ const InstagramSection = () => {
           {posts.map((post, i) => (
             <motion.a
               key={i}
-              href="https://instagram.com"
+              href="https://instagram.com/maddyxpilates"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
@@ -64,13 +64,13 @@ const InstagramSection = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/maddyxpilates"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full font-body font-medium text-lg hover:opacity-90 transition-opacity"
           >
             <Instagram className="w-5 h-5" />
-            @flowwithmaddy
+            @maddyxpilates
           </a>
         </motion.div>
       </div>
