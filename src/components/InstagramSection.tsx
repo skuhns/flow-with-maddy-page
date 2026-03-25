@@ -6,9 +6,9 @@ import insta2 from "@/assets/insta-2.jpg";
 import insta3 from "@/assets/insta-3.jpg";
 
 const posts = [
-  { src: insta1, alt: "Pilates stretch pose" },
-  { src: insta2, alt: "Beautiful studio" },
-  { src: insta3, alt: "Wellness lifestyle" },
+  { src: insta1, alt: "Blue-lit studio session", url: "https://instagram.com/maddyxpilates" },
+  { src: insta2, alt: "Reformer long stretch", url: "https://instagram.com/maddyxpilates" },
+  { src: insta3, alt: "Studio mirror selfie", url: "https://instagram.com/maddyxpilates" },
 ];
 
 const InstagramSection = () => {
@@ -33,7 +33,7 @@ const InstagramSection = () => {
           {posts.map((post, i) => (
             <motion.a
               key={i}
-              href="https://instagram.com/maddyxpilates"
+              href={post.url}
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
