@@ -38,7 +38,7 @@ const HeroBanner = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="font-body text-lg md:text-xl text-primary-foreground/90 mt-6 tracking-widest uppercase"
         >
-          Pilates · Strength · Flow
+          Strength · Center · Control
         </motion.p>
       </div>
 
