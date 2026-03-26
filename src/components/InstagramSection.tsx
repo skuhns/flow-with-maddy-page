@@ -26,7 +26,7 @@ const InstagramSection = () => {
             Follow the <span className="italic text-primary">Flow</span>
           </h2>
           <p className="font-body text-muted-foreground mt-4 text-lg">
-            Join the community on Instagram
+            Find my full Club Pilates schedule and information about private reformer sessions on my Insta
           </p>
         </motion.div>
 
