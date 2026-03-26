@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Instagram } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 import insta1 from "@/assets/insta-1.jpg";
 import insta2 from "@/assets/insta-2.jpg";
@@ -13,7 +14,7 @@ const posts = [
 
 const InstagramSection = () => {
   return (
-    <section className="py-24 md:py-32 px-6">
+    <section id="contact" className="py-24 md:py-32 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -72,6 +73,14 @@ const InstagramSection = () => {
             <Instagram className="w-5 h-5" />
             @maddyxpilates
           </a>
+          <div className="mt-4">
+            <Button asChild size="lg" className="rounded-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
+              <a href="mailto:rohnmaddy@gmail.com">
+                <Mail className="w-5 h-5" />
+                rohnmaddy@gmail.com
+              </a>
+            </Button>
+          </div>
         </motion.div>
       </div>
     </section>
