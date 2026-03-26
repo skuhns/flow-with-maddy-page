@@ -55,6 +55,9 @@ const AboutSection = () => {
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
               Pilates is a low impact system of exercises designed to improve core strength, flexibility, and spinal mobility. It was desgined for everybody and any BODY! I love to bring the energy and passion that makes pilates fun and interesting while keeping it accessible.
             </p>
+            <p className="font-body text-lg text-muted-foreground leading-relaxed">
+              
+            </p>
           </motion.div>
         </div>
       </div>
