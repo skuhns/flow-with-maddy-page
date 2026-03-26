@@ -2,7 +2,6 @@ import HeroBanner from "@/components/HeroBanner";
 import AboutSection from "@/components/AboutSection";
 import PhotoCarousel from "@/components/PhotoCarousel";
 import InstagramSection from "@/components/InstagramSection";
-import { Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -22,14 +21,6 @@ const Index = () => {
       <PhotoCarousel />
       <InstagramSection />
 
-      <section id="contact" className="py-16 flex flex-col items-center gap-4">
-        <Button asChild size="lg" className="rounded-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
-          <a href="mailto:rohnmaddy@gmail.com">
-            <Mail className="w-5 h-5" />
-            rohnmaddy@gmail.com
-          </a>
-        </Button>
-      </section>
 
       <footer className="py-8 text-center font-body text-sm text-muted-foreground border-t border-border">
         © 2026 Flow with Maddy. All rights reserved.
