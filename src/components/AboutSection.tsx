@@ -53,7 +53,7 @@ const AboutSection = () => {
               I'm a 500 hour comprehensively certified pilates instructor who is trained in all six apparatuses including reformer and mat! I have been teaching full time for almost two years including group classes, private parties, and one on one training.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              Whether you're a complete beginner or a seasoned pro, there's a spot on the mat for you. I believe movement should be fun, challenging, and totally judgment-free. Let's flow together!
+              Pilates is a low impact system of exercises designed to improve core strength, flexibility, and spinal mobility. It was desgined for everybody and any BODY! I love to bring the energy and passion that makes pilates fun and interesting while keeping it accessible.
             </p>
           </motion.div>
         </div>
