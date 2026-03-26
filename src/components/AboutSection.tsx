@@ -50,7 +50,7 @@ const AboutSection = () => {
               Hey, I'm Maddy! 💕
             </h3>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              I'm a certified Pilates instructor passionate about helping you build strength, flexibility, and confidence — all while having a blast! My classes are designed to make you feel empowered and energized.
+              I'm a 500 hour comprehensively certified pilates instructor who is trained in all six apparatuses including reformer and mat! I have been teaching full time for almost two years including group classes, private parties, and one on one training.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
               Whether you're a complete beginner or a seasoned pro, there's a spot on the mat for you. I believe movement should be fun, challenging, and totally judgment-free. Let's flow together!
