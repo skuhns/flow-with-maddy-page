@@ -6,13 +6,11 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import carousel1 from "@/assets/carousel-1.jpg";
 import carousel2 from "@/assets/carousel-2.jpg";
 import carousel3 from "@/assets/carousel-3.jpg";
-import carousel4 from "@/assets/carousel-4.jpg";
 
 const photos = [
   { src: carousel1, alt: "Pilates mat flow" },
   { src: carousel2, alt: "Reformer session" },
   { src: carousel3, alt: "Group class energy" },
-  { src: carousel4, alt: "Pilates equipment" },
 ];
 
 const PhotoCarousel = () => {
