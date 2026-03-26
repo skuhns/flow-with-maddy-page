@@ -55,20 +55,6 @@ const AboutSection = () => {
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
               Whether you're a complete beginner or a seasoned pro, there's a spot on the mat for you. I believe movement should be fun, challenging, and totally judgment-free. Let's flow together!
             </p>
-            <div className="flex gap-4 pt-4">
-              <div className="bg-accent rounded-2xl px-6 py-4 text-center">
-                <p className="font-display text-2xl font-semibold text-primary">5+</p>
-                <p className="font-body text-sm text-muted-foreground">Years Teaching</p>
-              </div>
-              <div className="bg-accent rounded-2xl px-6 py-4 text-center">
-                <p className="font-display text-2xl font-semibold text-primary">500+</p>
-                <p className="font-body text-sm text-muted-foreground">Happy Clients</p>
-              </div>
-              <div className="bg-accent rounded-2xl px-6 py-4 text-center">
-                <p className="font-display text-2xl font-semibold text-primary">3</p>
-                <p className="font-body text-sm text-muted-foreground">Certifications</p>
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
