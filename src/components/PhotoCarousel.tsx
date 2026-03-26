@@ -29,7 +29,7 @@ const PhotoCarousel = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-4xl md:text-6xl font-medium text-foreground">
-            The <span className="italic text-primary">playtime</span>
+            Professional <span className="italic text-primary">Playtime</span>
           </h2>
           <p className="font-body text-muted-foreground mt-4 text-lg">A peek into the studio</p>
         </motion.div>
