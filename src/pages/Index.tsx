@@ -23,7 +23,7 @@ const Index = () => {
       <InstagramSection />
 
       <section id="contact" className="py-16 flex flex-col items-center gap-4">
-        <Button asChild variant="outline" size="lg" className="rounded-full gap-2">
+        <Button asChild size="lg" className="rounded-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
           <a href="mailto:rohnmaddy@gmail.com">
             <Mail className="w-5 h-5" />
             rohnmaddy@gmail.com
