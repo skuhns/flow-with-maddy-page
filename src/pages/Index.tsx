@@ -2,7 +2,7 @@ import HeroBanner from "@/components/HeroBanner";
 import AboutSection from "@/components/AboutSection";
 import PhotoCarousel from "@/components/PhotoCarousel";
 import InstagramSection from "@/components/InstagramSection";
-import { Button } from "@/components/ui/button";
+
 
 const Index = () => {
   return (
