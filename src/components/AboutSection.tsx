@@ -47,7 +47,7 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <h3 className="font-display text-3xl md:text-4xl text-foreground font-medium">
-              Hey, I'm Maddy!
+              Hey, I'm Maddy! ✨
             </h3>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
               I'm a 500 hour comprehensively certified pilates instructor who is trained in all six apparatuses including reformer and mat! I have been teaching full time for almost two years including group classes, private parties, and one on one training.
