@@ -76,7 +76,7 @@ const InstagramSection = () => {
             href="https://www.tiktok.com/@maddyxpilates"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 text-secondary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity bg-blush"
+            className="inline-flex items-center gap-2.5 bg-secondary text-secondary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity"
           >
             <Music2 className="w-5 h-5" />
             @maddyxpilates
