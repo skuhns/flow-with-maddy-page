@@ -23,7 +23,7 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="relative"
+            className="relative max-w-sm mx-auto"
           >
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] bg-accent">
               <img
@@ -51,8 +51,8 @@ const AboutSection = () => {
             </h3>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
               I'm a 500-hour comprehensively certified pilates instructor
-              trained in all six apparatuses including reformer and mat.
-              I've been teaching full time for almost two years — group classes,
+              trained in all six apparatuses including reformer and mat. I've
+              been teaching full time for almost two years — group classes,
               private parties, and one-on-one training.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">

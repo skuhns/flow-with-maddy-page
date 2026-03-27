@@ -24,18 +24,18 @@ const EthosSection = () => {
           className="space-y-6 text-center"
         >
           <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Pilates was designed for every<em>body</em> — and that's exactly how I teach it.
-            As a 500-hour comprehensively certified instructor trained across all six apparatuses,
-            I bring energy, passion, and intention to every session.
+            Pilates should never feel like a chore. I bring the playlist, the
+            energy, and the good vibes — your only job is to show up and have
+            fun. Every class is a full experience: music, movement, and a whole
+            lot of hype.
           </p>
           <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
-            My goal is simple: make pilates fun, accessible, and empowering.
-            Whether you're stepping onto the mat for the first time or deepening an
-            existing practice, I create classes where every level feels challenged
-            and successful.
+            Whether you're brand new or a seasoned pro, you'll walk out feeling
+            stronger, looser, and genuinely happy you came. Pilates was designed
+            for every<em>body</em> — and I make sure it feels that way.
           </p>
           <p className="font-display text-2xl md:text-3xl italic text-primary font-medium pt-4">
-            Movement should feel good — let's make it happen.
+            Good music. Good energy. Great workout.
           </p>
         </motion.div>
       </div>
