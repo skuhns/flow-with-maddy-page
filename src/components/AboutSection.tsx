@@ -10,7 +10,7 @@ const AboutSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <h2 className="font-display text-4xl md:text-6xl font-medium text-foreground">
             About <span className="italic text-primary">Me</span>
