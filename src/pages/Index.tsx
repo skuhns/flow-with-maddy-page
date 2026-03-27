@@ -1,5 +1,7 @@
 import HeroBanner from "@/components/HeroBanner";
 import AboutSection from "@/components/AboutSection";
+import PilatesForSection from "@/components/PilatesForSection";
+import EthosSection from "@/components/EthosSection";
 import PhotoCarousel from "@/components/PhotoCarousel";
 import InstagramSection from "@/components/InstagramSection";
 
@@ -22,6 +24,8 @@ const Index = () => {
 
       <HeroBanner />
       <AboutSection />
+      <PilatesForSection />
+      <EthosSection />
       <PhotoCarousel />
       <InstagramSection />
 
