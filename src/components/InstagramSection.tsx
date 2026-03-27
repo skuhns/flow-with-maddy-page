@@ -83,7 +83,7 @@ const InstagramSection = () => {
           </a>
           <a
             href="mailto:rohnmaddy@gmail.com"
-            className="inline-flex items-center gap-2.5 bg-accent text-accent-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2.5 text-accent-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity bg-rose-200"
           >
             <Mail className="w-5 h-5" />
             rohnmaddy@gmail.com
