@@ -50,26 +50,15 @@ const AboutSection = () => {
               Hey, I'm Maddy! ✨
             </h3>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              I'm a 500 hour comprehensively certified pilates instructor who is
-              trained in all six apparatuses including reformer and mat! I have
-              been teaching full time for almost two years including group
-              classes, private parties, and one on one training.
+              I'm a 500-hour comprehensively certified pilates instructor
+              trained in all six apparatuses including reformer and mat.
+              I've been teaching full time for almost two years — group classes,
+              private parties, and one-on-one training.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              Pilates is a low impact system of exercises designed to improve
-              core strength, flexibility, and spinal mobility. It was desgined
-              for everybody and any BODY! I love to bring the energy and passion
-              that makes pilates fun and interesting while keeping it
-              accessible.
-            </p>
-            <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              If you're interested in hosting an event and think a private mat
-              pilates class could spice things up...let's make it happen!
-              Pilates is great for everything from bachelorette and birthday
-              parties to corporate team building and charity events! If you want
-              an instructor that is motivating, encouraging, energetic, and
-              experienced in creating classes that lead all levels to feeling
-              successful...I might be the instructor for you!
+              Whether it's a bachelorette party, corporate team building, or a
+              Saturday in the park — I bring the energy to make pilates fun,
+              accessible, and unforgettable.
             </p>
           </motion.div>
         </div>
