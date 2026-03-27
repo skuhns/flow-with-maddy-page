@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Instagram, Mail, Music2 } from "lucide-react";
 
 import insta1 from "@/assets/insta-1.jpg";
 import insta2 from "@/assets/insta-2.jpg";
@@ -62,25 +61,33 @@ const InstagramSection = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center mt-12"
+          className="flex flex-wrap items-center justify-center gap-3 mt-12"
         >
           <a
             href="https://instagram.com/maddyxpilates"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full font-body font-medium text-lg hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2.5 bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity"
           >
             <Instagram className="w-5 h-5" />
             @maddyxpilates
           </a>
-          <div className="mt-4">
-            <Button asChild size="lg" className="rounded-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90">
-              <a href="mailto:rohnmaddy@gmail.com">
-                <Mail className="w-5 h-5" />
-                rohnmaddy@gmail.com
-              </a>
-            </Button>
-          </div>
+          <a
+            href="https://www.tiktok.com/@maddyxpilates"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 bg-secondary text-secondary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity"
+          >
+            <Music2 className="w-5 h-5" />
+            @maddyxpilates
+          </a>
+          <a
+            href="mailto:rohnmaddy@gmail.com"
+            className="inline-flex items-center gap-2.5 bg-accent text-accent-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity"
+          >
+            <Mail className="w-5 h-5" />
+            rohnmaddy@gmail.com
+          </a>
         </motion.div>
       </div>
     </section>
