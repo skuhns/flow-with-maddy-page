@@ -6,14 +6,26 @@ import insta2 from "@/assets/insta-2.jpg";
 import insta3 from "@/assets/insta-3.jpg";
 
 const posts = [
-  { src: insta1, alt: "Blue-lit studio session", url: "https://www.instagram.com/p/DVwDoJajWcy/" },
-  { src: insta2, alt: "Reformer long stretch", url: "https://www.instagram.com/p/DKnA2u5sIqa/" },
-  { src: insta3, alt: "Studio mirror selfie", url: "https://www.instagram.com/p/DKHt-BetiT7/" },
+  {
+    src: insta1,
+    alt: "Blue-lit studio session",
+    url: "https://www.instagram.com/p/DVwDoJajWcy/",
+  },
+  {
+    src: insta2,
+    alt: "Reformer long stretch",
+    url: "https://www.instagram.com/p/DKnA2u5sIqa/",
+  },
+  {
+    src: insta3,
+    alt: "Studio mirror selfie",
+    url: "https://www.instagram.com/p/DKHt-BetiT7/",
+  },
 ];
 
 const InstagramSection = () => {
   return (
-    <section id="contact" className="py-16 md:py-24 px-6">
+    <section id="contact" className="py-16 md:py-16 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -25,7 +37,8 @@ const InstagramSection = () => {
             Follow the <span className="italic text-primary">Flow</span>
           </h2>
           <p className="font-body text-muted-foreground mt-4 text-lg">
-            Find my full Club Pilates schedule and information about private reformer sessions on my Insta
+            Find my full Club Pilates schedule and information about private
+            reformer sessions on my Insta
           </p>
         </motion.div>
 

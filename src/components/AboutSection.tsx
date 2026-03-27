@@ -3,7 +3,7 @@ import aboutPortrait from "@/assets/about-portrait.jpg";
 
 const AboutSection = () => {
   return (
-    <section className="py-16 md:py-24 px-6">
+    <section className="py-16 md:py-16 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,13 +50,26 @@ const AboutSection = () => {
               Hey, I'm Maddy! ✨
             </h3>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              I'm a 500 hour comprehensively certified pilates instructor who is trained in all six apparatuses including reformer and mat! I have been teaching full time for almost two years including group classes, private parties, and one on one training.
+              I'm a 500 hour comprehensively certified pilates instructor who is
+              trained in all six apparatuses including reformer and mat! I have
+              been teaching full time for almost two years including group
+              classes, private parties, and one on one training.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              Pilates is a low impact system of exercises designed to improve core strength, flexibility, and spinal mobility. It was desgined for everybody and any BODY! I love to bring the energy and passion that makes pilates fun and interesting while keeping it accessible.
+              Pilates is a low impact system of exercises designed to improve
+              core strength, flexibility, and spinal mobility. It was desgined
+              for everybody and any BODY! I love to bring the energy and passion
+              that makes pilates fun and interesting while keeping it
+              accessible.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed">
-              If you're interested in hosting an event and think a private mat pilates class could spice things up...let's make it happen! Pilates is great for everything from bachelorette and birthday parties to corporate team building and charity events! If you want an instructor that is motivating, encouraging, energetic, and experienced in creating classes that lead all levels to feeling successful...I might be the instructor for you!
+              If you're interested in hosting an event and think a private mat
+              pilates class could spice things up...let's make it happen!
+              Pilates is great for everything from bachelorette and birthday
+              parties to corporate team building and charity events! If you want
+              an instructor that is motivating, encouraging, energetic, and
+              experienced in creating classes that lead all levels to feeling
+              successful...I might be the instructor for you!
             </p>
           </motion.div>
         </div>
