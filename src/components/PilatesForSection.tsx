@@ -69,22 +69,40 @@ const useTypewriter = (
 
 const offerings = [
   {
-    emoji: "🎈",
-    title: "Private Parties",
+    emoji: "🏙️",
+    title: "Studio Classes",
     description:
-      "Bachelorette parties, birthdays, and celebrations made unforgettable with a private mat pilates class.",
+      "Catch me teaching group reformer and mat classes at studios across Chicago almost every day of the week.",
+  },
+  {
+    emoji: "🧘‍♀️",
+    title: "Private Lessons",
+    description:
+      "One-on-one sessions tailored to your goals, your pace, and your body. Reformer or mat — your call.",
+  },
+  {
+    emoji: "🏠",
+    title: "In-Home Sessions",
+    description:
+      "I come to you! Get a personalized mat pilates workout in the comfort of your own space.",
+  },
+  {
+    emoji: "🥂",
+    title: "Bachelorette Parties",
+    description:
+      "The perfect way to kick off a celebration — get the whole crew moving before a night out.",
+  },
+  {
+    emoji: "🎂",
+    title: "Birthday Parties",
+    description:
+      "A birthday workout that's actually fun. Sweat, laugh, and celebrate with your favorite people.",
   },
   {
     emoji: "💼",
     title: "Corporate Events",
     description:
-      "Energize your team with a group pilates session perfect for team building and wellness initiatives.",
-  },
-  {
-    emoji: "🌳",
-    title: "Outdoor Recreation",
-    description:
-      "Take the practice outside — pilates in the park, on the patio, or wherever the vibe takes us.",
+      "Energize your team with a group pilates session perfect for team building and wellness days. In person or remote!",
   },
 ];
 
@@ -92,8 +110,13 @@ const PilatesForSection = () => {
   const currentWord = useTypewriter(rotatingWords);
 
   return (
-    <section className="py-16 md:py-20 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-16 md:py-20 px-6 relative">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-20 right-0 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-blob-slow" />
+        <div className="absolute bottom-0 -left-20 w-72 h-72 bg-coral-light/30 rounded-full blur-3xl animate-blob-slower" />
+      </div>
+
+      <div className="max-w-6xl mx-auto relative">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -103,28 +126,30 @@ const PilatesForSection = () => {
         >
           <h2 className="font-display text-4xl md:text-6xl font-medium text-foreground">
             Pilates For{" "}
-            <span className="italic text-primary">
+            <span className="italic text-gradient">
               {currentWord}
               <span className="inline-block w-[3px] h-[0.85em] bg-primary ml-0.5 align-baseline animate-pulse" />
             </span>
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
           {offerings.map((item, i) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.04, rotate: -1 }}
+              whileTap={{ scale: 0.97 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="bg-card rounded-2xl p-8 text-center border border-border hover:shadow-lg transition-shadow"
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="bg-card rounded-2xl p-6 md:p-8 text-center border border-border hover:shadow-lg transition-shadow cursor-pointer"
             >
-              <span className="text-5xl block mb-4">{item.emoji}</span>
-              <h3 className="font-display text-xl md:text-2xl font-medium text-foreground mb-3">
+              <span className="text-4xl md:text-5xl block mb-3">{item.emoji}</span>
+              <h3 className="font-display text-lg md:text-2xl font-medium text-foreground mb-2">
                 {item.title}
               </h3>
-              <p className="font-body text-muted-foreground leading-relaxed">
+              <p className="font-body text-sm md:text-base text-muted-foreground leading-relaxed">
                 {item.description}
               </p>
             </motion.div>

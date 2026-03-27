@@ -34,7 +34,7 @@ const InstagramSection = () => {
           className="text-center mb-10"
         >
           <h2 className="font-display text-4xl md:text-6xl font-medium text-foreground">
-            Follow the <span className="italic text-primary">Flow</span>
+            Follow the <span className="italic text-gradient">Flow</span>
           </h2>
           <p className="font-body text-muted-foreground mt-4 text-lg">
             Find my full Club Pilates schedule and information about private
@@ -51,6 +51,7 @@ const InstagramSection = () => {
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -6 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15 }}
               className="group relative aspect-square rounded-2xl overflow-hidden"
@@ -76,27 +77,31 @@ const InstagramSection = () => {
           viewport={{ once: true }}
           className="flex flex-wrap items-center justify-center gap-3 mt-12"
         >
-          <a
+          <motion.a
             href="https://instagram.com/maddyxpilates"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity"
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center gap-2.5 bg-primary text-primary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:shadow-lg transition-shadow"
           >
             <Instagram className="w-5 h-5" />
             @maddyxpilates
-          </a>
-          <a
+          </motion.a>
+          <motion.a
             href="https://www.tiktok.com/@maddyxpilates"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 text-secondary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity bg-rose-300"
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center gap-2.5 text-secondary-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:shadow-lg transition-shadow bg-rose-300"
           >
             <Music2 className="w-5 h-5" />
             @maddyxpilates
-          </a>
+          </motion.a>
           <a
             href="mailto:rohnmaddy@gmail.com"
-            className="inline-flex items-center gap-2.5 text-accent-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:opacity-90 transition-opacity bg-rose-200"
+            className="inline-flex items-center gap-2.5 text-accent-foreground px-7 py-3.5 rounded-full font-body font-medium text-base hover:shadow-lg hover:scale-105 active:scale-95 transition-all bg-rose-200"
           >
             <Mail className="w-5 h-5" />
             rohnmaddy@gmail.com

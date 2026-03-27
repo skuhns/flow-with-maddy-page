@@ -76,4 +76,29 @@
   .font-body {
     font-family: var(--font-body);
   }
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-coral to-secondary bg-clip-text text-transparent;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--warm-cream));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.4);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.6);
+}
+
+html {
+  scrollbar-color: hsl(var(--primary) / 0.4) hsl(var(--warm-cream));
+  scrollbar-width: thin;
 }
