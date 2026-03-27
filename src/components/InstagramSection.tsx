@@ -19,7 +19,7 @@ const InstagramSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
           <h2 className="font-display text-4xl md:text-6xl font-medium text-foreground">
             Follow the <span className="italic text-primary">Flow</span>
