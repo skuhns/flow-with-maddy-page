@@ -90,7 +90,7 @@ const offerings = [
     emoji: "🥂",
     title: "Parties",
     description:
-      "The perfect way to kick off a celebration — get the whole crew moving before a night out.",
+      "Birthday babe? Bachelorette Trip? Baby shower? Nothing makes your party more memorable than a bonding sesh down on the mat!",
   },
   {
     emoji: "🎂",
