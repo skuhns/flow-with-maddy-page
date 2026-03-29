@@ -88,7 +88,7 @@ const offerings = [
   },
   {
     emoji: "🥂",
-    title: "Bachelorette Parties",
+    title: "Parties",
     description:
       "The perfect way to kick off a celebration — get the whole crew moving before a night out.",
   },
