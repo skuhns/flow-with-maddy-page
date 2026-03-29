@@ -61,11 +61,8 @@ const AboutSection = () => {
             <h3 className="font-display text-3xl md:text-4xl text-foreground font-medium mb-4">
               Hey, I'm Maddy! ✨
             </h3>
-            <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed">
-              I bring the playlist, the energy, and a whole lot of hype to every
-              class. Whether it's a bachelorette party, corporate team building,
-              or a Saturday in the park — I make pilates fun, accessible, and
-              unforgettable.
+            <p className="font-body text-lg text-muted-foreground leading-relaxed md:text-lg">
+              I'm described by clients as having an exciting energy that makes even the most challenging classes feel fast and fun. If you want an instructor who is friendly and encouraging that will push you to try new things and laugh with you through a spicy ab series then I am your girl. Whether you're looking to practice pilates at the lakefront with your girls on a saturday before brunch or add some spice to your morning at the air bnb on your bachelorette trip, a private mat pilates class brings movement and magic. I plan the class to meet your individual needs and meet you where you're at in your practice. No previous pilates experience? No problem.
             </p>
           </motion.div>
 
