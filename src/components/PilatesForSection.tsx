@@ -93,10 +93,10 @@ const offerings = [
       "Birthday babe? Bachelorette Trip? Baby shower? Nothing makes your party more memorable than a bonding sesh down on the mat!",
   },
   {
-    emoji: "🎂",
-    title: "Birthday Parties",
+    emoji: "🌳",
+    title: "Take It Outside",
     description:
-      "A birthday workout that's actually fun. Sweat, laugh, and celebrate with your favorite people.",
+      "Take your practice to the park, the beach, or your own backyard for some fresh air and movement.",
   },
   {
     emoji: "💼",
