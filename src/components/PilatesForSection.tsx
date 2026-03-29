@@ -87,7 +87,7 @@ const offerings = [
       "I come to you! Get a personalized mat pilates workout in the comfort of your own space.",
   },
   {
-    emoji: "🌱",
+    emoji: "🥂",
     title: "Parties",
     description:
       "Birthday babe? Bachelorette Trip? Baby shower? Nothing makes your party more memorable than a bonding sesh down on the mat!",
@@ -96,7 +96,7 @@ const offerings = [
     emoji: "🌱",
     title: "Take It Outside",
     description:
-      "Take your practice to the park, the beach, or your own backyard for some fresh air and movement.",
+      "Take your practice to the park, the beach, the lakefront, or your own backyard!",
   },
   {
     emoji: "💼",
