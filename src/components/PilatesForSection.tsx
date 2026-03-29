@@ -72,7 +72,7 @@ const offerings = [
     emoji: "🏙️",
     title: "Studio Classes",
     description:
-      "Catch me teaching group reformer and mat classes at studios across Chicago almost every day of the week.",
+      "Come take a reformer class with me at Club Pilates chicago! Find me on the schedule at multiple studios almost every day of the week. ",
   },
   {
     emoji: "🧘‍♀️",
