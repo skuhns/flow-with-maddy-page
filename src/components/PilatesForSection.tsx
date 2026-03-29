@@ -78,7 +78,7 @@ const offerings = [
     emoji: "🧘‍♀️",
     title: "Private Lessons",
     description:
-      "One-on-one sessions tailored to your goals, your pace, and your body. Reformer or mat — your call.",
+      "Perfect whether you are brand new to pilates and looking to improve form and feel confident or you are an advanced client looking to deepen your mind body connection!",
   },
   {
     emoji: "🏠",
