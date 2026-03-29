@@ -75,7 +75,7 @@ const offerings = [
       "Come take a reformer class with me at Club Pilates chicago! Find me on the schedule at multiple studios almost every day of the week. ",
   },
   {
-    emoji: "🧘‍♀️",
+    emoji: "⭐️",
     title: "Private Lessons",
     description:
       "Perfect whether you are brand new to pilates and looking to improve form and feel confident or you are an advanced client looking to deepen your mind body connection!",
