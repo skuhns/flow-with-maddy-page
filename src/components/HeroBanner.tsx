@@ -37,8 +37,7 @@ const HeroBanner = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="font-body text-lg md:text-xl text-primary-foreground/90 mt-6 tracking-widest uppercase">
-          
-          private pilates events   
+          pilates
         </motion.p>
       </div>
 
