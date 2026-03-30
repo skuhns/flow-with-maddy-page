@@ -99,9 +99,9 @@ const AboutSection = () => {
             <img
               src={CHICAGO_FLAG_URL}
               alt=""
-              className="absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none"
+              className="absolute inset-0 w-[150%] h-[150%] -top-[25%] -left-[25%] object-cover opacity-10 pointer-events-none"
             />
-            <span className="font-display text-3xl md:text-4xl font-bold text-gradient leading-none relative">
+            <span className="font-display text-3xl md:text-4xl font-bold text-primary leading-none relative">
               Chicago
             </span>
             <span className="font-body text-xs md:text-sm text-muted-foreground leading-tight relative">
@@ -118,7 +118,7 @@ const AboutSection = () => {
             transition={{ duration: 0.4, delay: 0.4 }}
             className="col-span-1 bg-card rounded-2xl border border-border p-4 flex flex-col items-center justify-center text-center cursor-pointer gap-1"
           >
-            <span className="text-2xl">🪷</span>
+            
             <span className="font-display text-2xl md:text-3xl font-semibold text-gradient leading-none">
               Club Pilates
             </span>
