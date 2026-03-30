@@ -99,7 +99,7 @@ const AboutSection = () => {
             <img
               src={CHICAGO_FLAG_URL}
               alt=""
-              className="absolute inset-0 w-full h-full object-fill opacity-10 pointer-events-none"
+              className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none"
             />
             <span className="font-display text-3xl md:text-4xl font-bold text-primary leading-none relative">
               Chicago
