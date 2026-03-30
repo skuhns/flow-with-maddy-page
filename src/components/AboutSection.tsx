@@ -30,14 +30,15 @@ const AboutSection = () => {
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {/* Portrait image */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="col-span-2 md:row-span-2 relative"
+            className="col-span-2 relative"
           >
-            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:h-full bg-accent">
+            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] bg-accent">
               <img
                 src={aboutPortrait}
                 alt="Maddy - Pilates instructor"
@@ -51,12 +52,13 @@ const AboutSection = () => {
             <div className="absolute -top-3 -left-3 w-16 h-16 bg-blush rounded-full -z-10 animate-float" />
           </motion.div>
 
+          {/* Intro text - spans 2 rows */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.15 }}
-            className="col-span-2 bg-card rounded-2xl border border-border p-8 md:p-10 flex flex-col justify-center"
+            className="col-span-2 md:row-span-2 bg-card rounded-2xl border border-border p-8 md:p-10 flex flex-col justify-center"
           >
             <h3 className="font-display text-3xl md:text-4xl text-foreground font-medium mb-4">
               Hey, I'm Maddy! ✨
@@ -66,6 +68,7 @@ const AboutSection = () => {
             </p>
           </motion.div>
 
+          {/* 500+ hours */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -84,6 +87,7 @@ const AboutSection = () => {
             </span>
           </motion.div>
 
+          {/* Chicago */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -105,6 +109,7 @@ const AboutSection = () => {
             </span>
           </motion.div>
 
+          {/* Club Pilates */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -122,6 +127,7 @@ const AboutSection = () => {
             </span>
           </motion.div>
 
+          {/* 2+ Years */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
