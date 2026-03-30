@@ -101,7 +101,7 @@ const AboutSection = () => {
               alt=""
               className="absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none"
             />
-            <span className="font-display text-2xl md:text-3xl font-semibold text-foreground leading-none relative">
+            <span className="font-display text-3xl md:text-4xl font-bold text-gradient leading-none relative">
               Chicago
             </span>
             <span className="font-body text-xs md:text-sm text-muted-foreground leading-tight relative">
@@ -116,7 +116,7 @@ const AboutSection = () => {
             {...cardHover}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.4 }}
-            className="col-span-1 md:col-span-2 bg-card rounded-2xl border border-border p-4 flex flex-col items-center justify-center text-center cursor-pointer gap-1"
+            className="col-span-1 bg-card rounded-2xl border border-border p-4 flex flex-col items-center justify-center text-center cursor-pointer gap-1"
           >
             <span className="text-2xl">🪷</span>
             <span className="font-display text-2xl md:text-3xl font-semibold text-gradient leading-none">
@@ -134,7 +134,7 @@ const AboutSection = () => {
             {...cardHover}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.5 }}
-            className="col-span-1 md:col-span-2 bg-card rounded-2xl border border-border p-4 flex flex-col items-center justify-center text-center cursor-pointer"
+            className="col-span-1 bg-card rounded-2xl border border-border p-4 flex flex-col items-center justify-center text-center cursor-pointer"
           >
             <span className="font-display text-3xl md:text-4xl font-bold text-gradient leading-none">
               2+
