@@ -93,7 +93,7 @@ const offerings = [
       "Birthday babe? Bachelorette Trip? Baby shower? Nothing makes your party more memorable than a bonding sesh down on the mat!",
   },
   {
-    emoji: "💎",
+    emoji: "🌳",
     title: "Take It Outside",
     description:
       "Take your practice to the park, the beach, the lakefront, or your own backyard!",
