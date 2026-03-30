@@ -58,7 +58,7 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.15 }}
-            className="col-span-2 md:row-span-2 bg-card rounded-2xl border border-border p-8 md:p-10 flex flex-col justify-center"
+            className="col-span-2 bg-card rounded-2xl border border-border p-8 md:p-10 flex flex-col justify-center"
           >
             <h3 className="font-display text-3xl md:text-4xl text-foreground font-medium mb-4">
               Hey, I'm Maddy! ✨
